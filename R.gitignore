@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1561.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #000000; background-color: #ffffff}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; background-color: #ffffff; min-height: 14.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #65798c; background-color: #ffffff}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #65798c; background-color: #ffffff; min-height: 14.0px}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #1337ff; background-color: #ffffff}
+    span.s1 {color: #ad3da4}
+    span.s2 {color: #65798c}
+  </style>
+</head>
+<body>
+<p class="p1"># History files</p>
+<p class="p1">.Rhistory</p>
+<p class="p1">.Rapp.history</p>
+<p class="p2"><br></p>
+<p class="p1"># Session Data files</p>
+<p class="p1">.RData</p>
+<p class="p2"><br></p>
+<p class="p1"># Example code <span class="s1"><b>in</b></span> package build process</p>
+<p class="p1">*-Ex.R</p>
+<p class="p2"><br></p>
+<p class="p1"># Output files from R CMD build</p>
+<p class="p3"><i>/*.tar.gz</i></p>
+<p class="p4"><i><span class="Apple-converted-space"> </span></i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span># Output files from R CMD check</i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span>/*.Rcheck/</i></p>
+<p class="p4"><i><span class="Apple-converted-space"> </span></i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span># RStudio files</i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span>.Rproj.user/</i></p>
+<p class="p4"><i><span class="Apple-converted-space"> </span></i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span># produced vignettes</i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span>vignettes/*.html</i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span>vignettes/*.pdf</i></p>
+<p class="p4"><i><span class="Apple-converted-space"> </span></i></p>
+<p class="p5"><span class="s2"><i><span class="Apple-converted-space"> </span># OAuth2 token, see </i></span>https://github.com/hadley/httr/releases/tag/v0.3</p>
+<p class="p3"><i><span class="Apple-converted-space"> </span>.httr-oauth</i></p>
+<p class="p4"><i><span class="Apple-converted-space"> </span></i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span># knitr and R markdown default cache directories</i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span>/*_cache/</i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span>/cache/</i></p>
+<p class="p4"><i><span class="Apple-converted-space"> </span></i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span># Temporary files created by R markdown</i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span>*.utf8.md</i></p>
+<p class="p3"><i><span class="Apple-converted-space"> </span>*.knit.md</i></p>
+</body>
+</html>
