@@ -1,4 +1,4 @@
-#' Year from Congress
+#' Congress to Year
 #'
 #' This function takes the number of a Congress and returns the years that Congress was in session. 
 #' It will return either the first or second year of the session of Congress.
@@ -9,7 +9,7 @@
 #' @return a numeric value or vector of values of the years which correspond the Congress
 #' @export
 
-yfc <- function(congress, year = "first"){
+congress_to_year <- function(congress, year = "first"){
   if (year == "first"){
     y <- 2*(congress-1) + 1789 
   }  else if (year == "second") {
