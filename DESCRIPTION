@@ -1,6 +1,6 @@
 Package: congressTools
 Title: Simple utility functions for working with Congressional data.
-Version: 0.9000
+Version: 0.910
 Authors@R: person("Alexander", "Furnas", email = "zfurnas@umich.edu", role = c("aut", "cre"))
 Description: Simple utility functions for working with Congressional data. The first two functions convert back and forth between year and session of Congress. More description once there are more utilities.
 Depends: R (>= 3.5.1)

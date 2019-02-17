@@ -1,7 +1,7 @@
 # congressTools
 __Title__: Simple utility functions for working with Congressional data.
 
-__Version__: 0.9000
+__Version__: 0.910
 
 __Authors__: Alexander Furnas 
 
