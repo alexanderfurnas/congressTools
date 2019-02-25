@@ -5,7 +5,8 @@
 \alias{stdz_district}
 \title{Standardize District}
 \usage{
-stdz_district <- function(full_district = character(), state, district, denote_sen = "00", denote_al = "01", sep = "-", old_sep = NA, sep_loc = NA)
+stdz_district <- function(full_district = character(), state, 
+district, denote_sen = "00", denote_al = "01", sep = "-", old_sep = NA, sep_loc = NA)
 }
 \arguments{
 \item{full_district}{district or vector of districts.}
