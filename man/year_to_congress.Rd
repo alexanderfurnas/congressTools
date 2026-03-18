@@ -7,11 +7,17 @@
 year_to_congress(year)
 }
 \arguments{
-\item{year}{the numerical value of the year for which you would like to know}
+\item{year}{A numeric year or vector of years (e.g., \code{2019}).}
 }
 \value{
-a numeric value or vector of values of the Congress or Congresses which correspond the years
+An integer value or vector of Congress numbers.
 }
 \description{
-This function takes a year and returns the numerical value of the session of Congress during that year.
+Convert a calendar year to the corresponding Congress number.
+}
+\examples{
+year_to_congress(2019)
+# 116
+year_to_congress(c(1987, 2007, 2019))
+# 100 110 116
 }

@@ -7,14 +7,22 @@
 congress_to_year(congress, year = "first")
 }
 \arguments{
-\item{congress}{the numerical signifier for congress. Either a single value of a vector of values.}
+\item{congress}{Congress number (integer). Accepts a single value or a vector.}
 
-\item{year}{Which year of the Congress to return. Rakes either 'first' or 'second', defaults to "first"}
+\item{year}{Which year of the term to return: \code{"first"} (default) or \code{"second"}.}
 }
 \value{
-a numeric value or vector of values of the years which correspond the Congress
+A numeric value or vector of calendar years.
 }
 \description{
-This function takes the number of a Congress and returns the years that Congress was in session. 
-It will return either the first or second year of the session of Congress.
+Convert a Congress number to the calendar year(s) of that session.
+Returns either the first or second year of the two-year term.
+}
+\examples{
+congress_to_year(116)
+# 2019
+congress_to_year(116, year = "second")
+# 2020
+congress_to_year(c(100, 110, 116))
+# 1987 2007 2019
 }
